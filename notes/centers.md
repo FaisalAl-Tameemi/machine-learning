@@ -19,6 +19,15 @@
 - Not effected by outliers.
 - Easy to find on a histogram plot.
 
+**Quartiles:**
+- In stats, you divide your data into [quartiles](https://en.wikipedia.org/wiki/Quartile).
+- Q1 = median([X1...Xn])
+- Q2 = median([X1...Xn/2])
+- Q3 = median([Xn/2...Xn])
+- IQR = Q3 - Q1
+
+**outliers:**
+- A data point, d, is a statistical outlier **if (d < (Q1 - 1.5 * IQR)) or (d > (Q3 + 1.5 * IQR))**
 
 Other Notes:
 http://cl.ly/342w3v381S0O
